@@ -133,10 +133,10 @@
 
 &lt;ul&gt;
 &lt;li&gt;Buscar en la web el logo de los RSS (que muestro al inicio del artículo) o un enlace con sus siglas.&lt;/li&gt;
-&lt;li&gt;Probar escribir al final de su dirección web cualquiera de la palabras “/feed”, “/rss” o “/atom”.&lt;/li&gt;
+&lt;li&gt;Probar escribir al final de su dirección web cualquiera de la palabras &amp;ldquo;/feed&amp;rdquo;, &amp;ldquo;/rss&amp;rdquo; o &amp;ldquo;/atom&amp;rdquo;.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;En mi blog la segunda opción es la posible ya que por mantener el sitio simplista no le dediqué un enlace a los RSS. Les aparecerá si acceden a la dirección “&lt;a href=&#34;{{site.url}}/feed.xml&#34;&gt;{{site.url}}/feed.xml&lt;/a&gt;“.&lt;/p&gt;
+&lt;p&gt;En mi blog la segunda opción es la posible ya que por mantener el sitio simplista no le dediqué un enlace a los RSS. Les aparecerá si acceden a la dirección &amp;ldquo;&lt;a href=&#34;https://gabriel.llera.eu/feed.xml&#34;&gt;https://gabriel.llera.eu/feed.xml&lt;/a&gt;&amp;rdquo;.&lt;/p&gt;
 
 &lt;p&gt;Una vez tienes los enlaces RSS de los sitios que te interesen existen muchas vías para consultarlos y ver qué novedades traen, les comentaré la forma en que yo lo hago que de momento no tengo quejas de ella :)&lt;/p&gt;
 
