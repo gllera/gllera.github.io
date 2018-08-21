@@ -53,12 +53,13 @@
   </url>
   
   <url>
-    <loc>https://gabriel.llera.eu/</loc>
-    <lastmod>2015-12-06T23:12:06+01:00</lastmod>
+    <loc>https://gabriel.llera.eu/categories/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://gabriel.llera.eu/categories/</loc>
+    <loc>https://gabriel.llera.eu/post/</loc>
+    <lastmod>2015-12-06T23:12:06+01:00</lastmod>
     <priority>0</priority>
   </url>
   
