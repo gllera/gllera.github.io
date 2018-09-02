@@ -5,10 +5,92 @@
     <link>https://gabriel.llera.eu/</link>
     <description>Recent content on gllera&#39;s blog</description>
     <language>es</language>
-    <lastBuildDate>Sun, 06 Dec 2015 23:12:06 +0100</lastBuildDate>
+    <lastBuildDate>Sun, 02 Sep 2018 10:12:19 +0200</lastBuildDate>
     
         <atom:link href="https://gabriel.llera.eu/feed.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Puesta a punto - parte 1</title>
+      <link>https://gabriel.llera.eu/2018/09/02/tuning-1/</link>
+      <pubDate>Sun, 02 Sep 2018 10:12:19 +0200</pubDate>
+      
+      <guid>https://gabriel.llera.eu/2018/09/02/tuning-1/</guid>
+      <description>
+
+
+
+
+
+
+&lt;p&gt;
+    &lt;picture  class=&#34;z10&#34; &gt;
+        
+        
+        &lt;img src=&#34;https://gabriel.llera.eu/2018/09/02/tuning-1/lightning.png&#34;  alt=&#34;lightning&#34; &gt;
+    &lt;/picture&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Hace ya 1001 días que no publico nada en mi blog y pensaba que ya iba siendo hora. Como estructuralmente en este sitio muchas cosas han cambiado desde entonces mientras lo ponía a punto, pensé que sería buena idea primero ponerles al día al respecto.&lt;/p&gt;
+
+&lt;p&gt;Resulta que el hosting low cost que usaba (&lt;a href=&#34;https://quijost.com/&#34;&gt;Quijost&lt;/a&gt;) no dejaba de tener caídas, problemas de rendimiento y bugs de software que hacían que cada año pareciese que no estaba pagando por algo que valiese la pena realmente. Fue por eso por lo que en cuanto me enteré de que podía hospedarlo en &lt;a href=&#34;https://pages.github.com/&#34;&gt;Github Pages&lt;/a&gt; sin coste alguno evitándome todos los problemas anteriormente mencionados no lo dudé 2 veces y comencé la migración.&lt;/p&gt;
+
+
+
+
+
+
+
+
+&lt;p&gt;
+    &lt;picture  class=&#34;z10&#34; &gt;
+        
+        
+        &lt;img src=&#34;https://gabriel.llera.eu/2018/09/02/tuning-1/github-pages.png&#34;  alt=&#34;Github pages&#34; &gt;
+    &lt;/picture&gt;
+&lt;/p&gt;
+
+&lt;p&gt;El truco de Github Pages para conseguir un rendimiento tan increíble por 0€ consiste en tener la web estática, es decir, sin código fuente nuestro que necesite ser procesado por el servidor para mostrarle la web al usuario por lo que ya directamente no me era posible usar Wordpress. Esto se traduce en que cuando desee hacer cualquier tipo de actualización al sitio es necesario pegarse con el código fuente de la web para modificar los ficheros afectados. Como primera impresión eso puede parecer poco práctico pero por suerte este inconveniente tiene una solución bastante buena, usar algún generador de webs estáticas de entre los &lt;a href=&#34;https://www.staticgen.com/&#34;&gt;muchos&lt;/a&gt; que hay. Ya pienso que no usaría Wordpress ni teniendo un hosting decente porque con esta alternativa no tengo nada que envidiarle.&lt;/p&gt;
+
+
+
+
+
+
+
+
+&lt;p&gt;
+    &lt;picture  class=&#34;z10&#34; &gt;
+        
+        
+        &lt;img src=&#34;https://gabriel.llera.eu/2018/09/02/tuning-1/jekyll.png&#34;  alt=&#34;Jekyll&#34; &gt;
+    &lt;/picture&gt;
+&lt;/p&gt;
+
+&lt;p&gt;De entre esos generadores al principio me decanté por &lt;a href=&#34;https://jekyllrb.com/&#34;&gt;Jekyll&lt;/a&gt; por ser el que Github soporta oficialmente evitándote tener que &amp;ldquo;compilar&amp;rdquo; la web antes de subirla pero el que esté desarrollado en &lt;a href=&#34;https://www.ruby-lang.org/en/&#34;&gt;Ruby&lt;/a&gt; no me terminó de convencer. En lo personal no tengo interés en nada relacionado con ese lenguaje así que después de unos años de usarlo en mi blog sin prácticamente tocarlo, probé con &lt;a href=&#34;https://nuxtjs.org/&#34;&gt;Nuxt&lt;/a&gt;. Pero este otro resultó que me sobrecargaba más de lo deseado el sitio con las librerías de &lt;a href=&#34;https://vuejs.org/&#34;&gt;Vue&lt;/a&gt; además de reducirme el factor simplista que buscaba conseguir en un mantenimiento y uso diario del sitio por lo que seguí buscando.&lt;/p&gt;
+
+
+
+
+
+
+
+
+&lt;p&gt;
+    &lt;picture  class=&#34;z10&#34; &gt;
+        
+        
+        &lt;img src=&#34;https://gabriel.llera.eu/2018/09/02/tuning-1/hugo.svg&#34;  alt=&#34;lightning&#34; &gt;
+    &lt;/picture&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Fue entonces cuando probé usar &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt;, que a diferencia de Jekyll y Nuxt está desarrollado en &lt;a href=&#34;https://golang.org/&#34;&gt;Golang&lt;/a&gt; y eso para mí fue un punto a su favor desde el primer momento. Golang es un lenguaje de programación asombroso, permite generar binarios sin dependencias externas para la gran mayoría de sistemas operativos y arquitecturas usando el mismo código fuente y con Hugo esto también se aplica, con un binario podremos generar nuestra web desde donde sea en cuestión de milisegundos.&lt;/p&gt;
+
+&lt;p&gt;Hugo es bastante simplista, cubre funciones relativamente básicas, pero a la vez te permite crear las tuyas propias sin mucha dificultad. Pudiese usar solamente Hugo para mantener mi blog pero me pareció interesante perfeccionarlo aún más con otras herramientas y servicios que ya comentaré en la siguiente publicación.&lt;/p&gt;
+
+&lt;p&gt;¡Saludos!&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Síntesis de voz</title>
