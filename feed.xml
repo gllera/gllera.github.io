@@ -5,10 +5,69 @@
     <link>https://gabriel.llera.eu/</link>
     <description>Recent content on gllera&#39;s blog</description>
     <language>es</language>
-    <lastBuildDate>Sun, 02 Sep 2018 10:12:19 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 20 Sep 2018 01:12:20 +0100</lastBuildDate>
     
         <atom:link href="https://gabriel.llera.eu/feed.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Puesta a punto - parte 2</title>
+      <link>https://gabriel.llera.eu/2018/09/20/tuning-2/</link>
+      <pubDate>Thu, 20 Sep 2018 01:12:20 +0100</pubDate>
+      
+      <guid>https://gabriel.llera.eu/2018/09/20/tuning-2/</guid>
+      <description>
+
+
+
+
+
+
+&lt;p&gt;
+    &lt;picture  class=&#34;z10&#34; &gt;
+        
+        
+        &lt;img src=&#34;https://gabriel.llera.eu/2018/09/20/tuning-2/compress.png&#34;  alt=&#34;compress&#34; &gt;
+    &lt;/picture&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Una vez se tiene una web estática con un rendimiento bien bueno que se puede mantener relativamente fácil y por 0€ ¿Qué otra cosa se le pudiese mejorar? Pues el ancho de banda óptimo que necesita, de nada valdrá que una web comience a mostrar contenido muy rápido si luego tarda una eternidad descargando las cosas que necesita. Eso beneficiará principalmente a las visitas desde teléfonos móviles. Yo a menudo suelo navegar a velocidad reducida (8KB/s) porque se me agota el bono de datos del móvil así que optimicé este sitio para poderlo navegar a esa velocidad.&lt;/p&gt;
+
+
+
+
+
+
+
+
+&lt;p&gt;
+    &lt;picture  class=&#34;z10&#34; &gt;
+        
+        
+        &lt;img src=&#34;https://gabriel.llera.eu/2018/09/20/tuning-2/gulp.png&#34;  alt=&#34;gulp&#34; &gt;
+    &lt;/picture&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Apliqué las siguiéntes técnicas de reducción de ancho de banda de forma automatizada a través de &lt;a href=&#34;https://gulpjs.com/&#34;&gt;Gulp&lt;/a&gt; y con algo de apoyo extra de &lt;a href=&#34;https://tinypng.com/&#34;&gt;tinypng&lt;/a&gt; e &lt;a href=&#34;https://icomoon.io/&#34;&gt;Icomoon&lt;/a&gt;. Pienso que en una web &amp;ldquo;bien currada&amp;rdquo; deberían estar presentes al menos las más básicas de estas. Especifico aproximadamente la mejora que aportan cada una de ellas en donde se aplican a mi blog:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Eliminar espacios en blancos, saltos de línea y código comentado de los ficheros html, css y javascript, usar urls relativas, omitir tags y comillas opcionales (-30% tamaño)&lt;/li&gt;
+&lt;li&gt;Unificar ficheros CSS y Javascript (-20% peticiones al servidor)&lt;/li&gt;
+&lt;li&gt;Adjuntar ficheros pequeños al código fuente mediante &amp;ldquo;Data URLs&amp;rdquo; (-20% peticiones al servidor)&lt;/li&gt;
+&lt;li&gt;Evitar incluir &amp;ldquo;packs&amp;rdquo; completos, como todo Bootstrap o FontAwesome (-90% tamaño)&lt;/li&gt;
+&lt;li&gt;Optimizar imágenes en tamaño y calidad (-60% tamaño)&lt;/li&gt;
+&lt;li&gt;Evitar usar vídeos, sonidos e imágenes (-80% tamaño)&lt;/li&gt;
+&lt;li&gt;Usar vectores y fuentes siempre que sea posible (-20% tamaño, -15% peticiones al servidor)&lt;/li&gt;
+&lt;li&gt;Evitar cargar plugins pesados como Disqus (comentarios) automáticamente (-95% tamaño, -80% peticiones al servidor)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;El resultado es tener un sitio bastante ligero que cumple su función perfectamente. En estos momentos, cargar por primera vez mi blog necesita bajar sólo unos 51KB para el post anterior (parte 1 de &amp;ldquo;Puesta a punto&amp;rdquo;). Si lo comparamos, por ejemplo, con &lt;a href=&#34;https://www.huffingtonpost.es/david-varela-naranjo/es-mejor-la-cerveza-filtrada-o-sin-filtrar_a_23529897&#34;&gt;éste&lt;/a&gt; artículo del famoso sitio de noticias Huffingtonpost vemos que este último necesita 40 veces mas ancho de banda (2MB) además de que hace 11 veces más peticiones al servidor (113 vs 9).&lt;/p&gt;
+
+&lt;p&gt;Traté de acceder al Huffingtonpost desde mi móvil con velocidad reducida pero tardaba tanto en poder ver algo que desistí. Las conexiones lentas no se tienen demasiado en cuenta hoy en día y eso no me parece correcto. Me recuerda a lo que sucede cuando se le aumenta el sueldo a alguien con mentalidad económica de pobre, que lo que hace es darse gustos proporcionalmente más caros por lo que sigue estando sin dinero y sintiéndose pobre. En este caso tenemos internet más rápido pero las páginas también son más pesadas por lo que siguen tardando en cargar, y ya si tienes un internet lento ni te cuento. Para mí el valor de los sitios webs no está en la cantidad de chorradillas visuales guays pesadas que tenga sino en el contenido.&lt;/p&gt;
+
+&lt;p&gt;Por cierto, aún me queda otro tema de &amp;ldquo;Puesta a punto&amp;rdquo; que comentar que ya lo haré en el próximo post, saludos!&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Puesta a punto - parte 1</title>

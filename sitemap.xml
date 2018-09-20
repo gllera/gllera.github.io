@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://gabriel.llera.eu/2018/09/20/tuning-2/</loc>
+    <lastmod>2018-09-20T01:12:20+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://gabriel.llera.eu/2018/09/02/tuning-1/</loc>
     <lastmod>2018-09-02T10:12:19+02:00</lastmod>
   </url>
@@ -89,13 +94,13 @@
   
   <url>
     <loc>https://gabriel.llera.eu/post/</loc>
-    <lastmod>2018-09-02T10:12:19+02:00</lastmod>
+    <lastmod>2018-09-20T01:12:20+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://gabriel.llera.eu/</loc>
-    <lastmod>2018-09-02T10:12:19+02:00</lastmod>
+    <lastmod>2018-09-20T01:12:20+01:00</lastmod>
     <priority>0</priority>
   </url>
   
